@@ -13,7 +13,9 @@
 #navbar {
 	background-color: #ffff00;
 	display: flex;
-	padding: 10px 10px 10px 3px;
+	align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 3px;
     
 } 
 
@@ -49,17 +51,7 @@
     width: 20px;
     display: block;
 
-}
-
-.carrinho {
-    display: block;
-    position: absolute;
-    right: 0;
-    /*width: 40px;*/
-    text-align: center;
-    margin: 9px /*0px 0px 0px;*/
-}
-        
+}        
  
 .logo img {
    display: block;
@@ -68,3 +60,40 @@
    margin: 0px 10px;
 
 } 
+
+.endereco-home{
+    text-align: center;
+}
+
+.carrossel-home div {
+    display: flex;
+    overflow-x: hidden;
+
+}
+
+.carrossel-home {
+    position: relative;
+} 
+
+.carrossel-seta{
+    position: absolute;
+    width: 50px;
+    top: 50%;
+   
+}
+
+.carrossel-seta img {
+    width: 100%;
+    display: block;
+
+}
+
+.carrossel-seta-esquerda {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.carrossel-seta-direita {
+    right: 10px;
+    transform: rotate(180deg) translateY(50%);
+}
