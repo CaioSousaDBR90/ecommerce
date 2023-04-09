@@ -13,22 +13,27 @@
 #navbar {
 	background-color: #ffff00;
 	display: flex;
-	padding:  10px ;
+	padding: 10px 10px 10px 3px;
+    
 } 
 
 .form input{
 	border: 1px solid #c6c6c6;
 	border-radius: 5px ;
 	display: block ;
+    width: 215px;
+
 }
 
 .search {
     position: relative;
+
 }
 
 .search input {
 	padding: 10px 8px 10px 35px;
-}
+    
+} 
 
 .search:before {
 	content: "";
@@ -43,4 +48,23 @@
     left: 8px; 
     width: 20px;
     display: block;
+
 }
+
+.carrinho {
+    display: block;
+    position: absolute;
+    right: 0;
+    /*width: 40px;*/
+    text-align: center;
+    margin: 9px /*0px 0px 0px;*/
+}
+        
+ 
+.logo img {
+   display: block;
+   width: 50px;
+   height: 45px;
+   margin: 0px 10px;
+
+} 
