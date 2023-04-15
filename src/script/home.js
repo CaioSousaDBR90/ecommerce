@@ -7,7 +7,16 @@ setaDireita.addEventListener("click", (event) => {
 	const carrossel = document.querySelector(".carrossel-home div ")
 	const carrosselImagens = carrossel.querySelectorAll("figure")
 	if(carrosselImagens.length > 1 ) {
-		carrossel.insertBefore(carrosselImagens[0], carrosselImagens[carrosselImagens.length - 1])
+		carrossel.insertBefore(carrosselImagens[0], carrosselImagens[carrosselImagens.length ])
+	}
+} )
+
+setaEsquerda.addEventListener("click", (event) => {
+	event.preventDefault()
+	const carrossel = document.querySelector(".carrossel-home div ")
+	const carrosselImagens = carrossel.querySelectorAll("figure")
+	if(carrosselImagens.length > 1 ) {
+		carrossel.insertBefore(carrosselImagens[carrosselImagens.length - 1], carrosselImagens[0])
 	}
 } )
 

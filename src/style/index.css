@@ -59,41 +59,46 @@
    height: 45px;
    margin: 0px 10px;
 
-} 
-
+}   
+    
 .endereco-home{
     text-align: center;
-}
-
+}   
+    
 .carrossel-home div {
     display: flex;
     overflow-x: hidden;
 
-}
 
+}   
+    
 .carrossel-home {
     position: relative;
-} 
-
+}   
+    
 .carrossel-seta{
     position: absolute;
     width: 50px;
     top: 50%;
-   
-}
-
+    
+}   
+    
 .carrossel-seta img {
     width: 100%;
     display: block;
 
-}
-
+}   
+    
 .carrossel-seta-esquerda {
     left: 10px;
     transform: translateY(-50%);
-}
-
+}   
+    
 .carrossel-seta-direita {
     right: 10px;
     transform: rotate(180deg) translateY(50%);
+}   
+
+.carrossel-home div img {
+    width: 100vw;
 }
