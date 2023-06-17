@@ -20,3 +20,12 @@ setaEsquerda.addEventListener("click", (event) => {
 	}
 } )
 
+const palito = {
+	tipo: "madeira", 
+	ponta: "fina",
+	quebrar: () => {
+		console.log("quebrou")
+	}
+}
+
+palito.quebrar()

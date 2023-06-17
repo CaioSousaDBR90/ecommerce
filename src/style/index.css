@@ -68,12 +68,13 @@
 .carrossel-home div {
     display: flex;
     overflow-x: hidden;
-
+    align-items: center;
 
 }   
     
 .carrossel-home {
     position: relative;
+
 }   
     
 .carrossel-seta{
@@ -102,3 +103,26 @@
 .carrossel-home div img {
     width: 100vw;
 }
+
+.categorias div {
+    display: flex;
+    overflow: scroll;
+
+}
+
+.categorias figure {
+    margin: 0 15px;
+}
+
+.categorias figcaption {
+    text-align: center;
+    /*color: #ffff00;*/
+    /*background: black;*/
+}
+
+.categorias img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
